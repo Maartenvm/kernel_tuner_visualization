@@ -1,0 +1,48 @@
+{
+  "name": "kernel-tuner",
+  "//": {
+    "1": "node-version: 6.10.2, npm version 4.5.0"
+  },
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001/",
+  "dependencies": {
+    "classnames": "2.2.5",
+    "dc": "2.0.2",
+    "react": "15.5.4",
+    "react-dom": "15.5.4",
+    "react-faux-dom": "^3.1.0",
+    "react-mdl": "1.10.1",
+    "react-redux": "5.0.4",
+    "redux": "3.6.0",
+    "redux-thunk": "2.2.0",
+    "whatwg-fetch": "2.0.3"
+  },
+  "devDependencies": {
+    "@nlesc/react-scripts": "0.2.0",
+    "@types/classnames": "0.0.32",
+    "@types/dc": "0.0.23",
+    "@types/react": "15.0.23",
+    "@types/react-dom": "15.5.0",
+    "@types/react-mdl": "1.7.20",
+    "@types/react-redux": "4.4.40",
+    "@types/whatwg-fetch": "0.0.33"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "react-scripts lint"
+  },
+  "keywords": [
+    "typescript",
+    "visualization"
+  ],
+  "author": "Maarten van Meersbergen",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maartenvm/kernel-tuner.git"
+  }
+}

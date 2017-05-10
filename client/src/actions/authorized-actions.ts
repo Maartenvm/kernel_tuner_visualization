@@ -1,0 +1,4 @@
+export const DATA_RECEIVED = 'DATA_RECEIVED';
+export const DATA_REQUESTED = 'DATA_REQUESTED';
+
+export const D3_DATA_REQUESTED = 'D3_DATA_REQUESTED';
